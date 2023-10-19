@@ -1,4 +1,5 @@
+/* eslint-disable prettier/prettier */
 import { PartialType } from '@nestjs/mapped-types';
 import { CreateProductPhoneDto } from './create-product-phone.dto';
 
-export class UpdateProductPhoneDto extends PartialType(CreateProductPhoneDto) {}
+export class UpdateProductPhoneDto extends PartialType(CreateProductPhoneDto) { }
